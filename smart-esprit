@@ -1,0 +1,36 @@
+#include <stdio.h>
+#include <stdlib.h>
+void main()
+{
+     char o;
+     int a,b,l;
+     printf("donnez l opp");
+     scanf("%c", &o);
+     printf("donnez un  entier");
+     scanf("%d",&b);
+     printf("donnez un  entier");
+     scanf("%d",&a);
+
+
+     switch (o)
+     {
+          case '+' :
+               printf("la resulta est %d",a+b);
+               break;
+          case '*' :
+               printf("la resulta est %d",a*b);
+               break;
+          case '-' :
+               printf("la resulta est %d",a-b);
+               break;
+          case '/' :
+               printf("la resulta est %d",a/b);
+               break;
+          case '%':
+               printf("la resulta est %d",a%b);
+               break;
+          default:
+               printf("SSS");
+               break;
+      }
+}
